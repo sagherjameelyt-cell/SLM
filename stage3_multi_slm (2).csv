@@ -1,0 +1,11 @@
+EM,F1,train_n,eval_n,model_name,align_lambda,lora_r,lora_alpha,learning_rate,model,seed,status,error
+0.0,0.034815723748563,400.0,50.0,qwen2.5-1.5b,0.0,16.0,32.0,0.0002,qwen2.5-1.5b,42,ok,
+0.0,0.0331270613398146,400.0,50.0,qwen2.5-1.5b,0.0,16.0,32.0,0.0002,qwen2.5-1.5b,43,ok,
+0.0,0.0376359247393001,400.0,50.0,qwen2.5-1.5b,0.0,16.0,32.0,0.0002,qwen2.5-1.5b,44,ok,
+0.0,0.0351958960417647,400.0,50.0,qwen2.5-1.5b,0.0,16.0,32.0,0.0002,qwen2.5-1.5b,45,ok,
+0.0,0.0459425430521092,400.0,50.0,qwen2.5-1.5b,0.0,16.0,32.0,0.0002,qwen2.5-1.5b,46,ok,
+,,,,,,,,,phi-3-mini,42,error,ValueError: Unknown RoPE scaling type default
+,,,,,,,,,phi-3-mini,43,error,ValueError: Unknown RoPE scaling type default
+,,,,,,,,,phi-3-mini,44,error,ValueError: Unknown RoPE scaling type default
+,,,,,,,,,phi-3-mini,45,error,ValueError: Unknown RoPE scaling type default
+,,,,,,,,,phi-3-mini,46,error,ValueError: Unknown RoPE scaling type default

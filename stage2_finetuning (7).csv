@@ -1,0 +1,16 @@
+strategy,seed,status,EM,F1,train_n,eval_n,model_name,align_lambda,lora_r,lora_alpha,learning_rate,train_loss_final,train_loss_min,train_loss_points,train_loss_path
+full_ft,42,oom,,,,,,,,,,,,,
+full_ft,43,oom,,,,,,,,,,,,,
+full_ft,44,oom,,,,,,,,,,,,,
+full_ft,45,oom,,,,,,,,,,,,,
+full_ft,46,oom,,,,,,,,,,,,,
+lora,42,oom,,,,,,,,,,,,,
+lora,43,oom,,,,,,,,,,,,,
+lora,44,oom,,,,,,,,,,,,,
+lora,45,oom,,,,,,,,,,,,,
+lora,46,oom,,,,,,,,,,,,,
+qlora,42,,0.0,0.034250911982240784,400.0,50.0,qwen2.5-1.5b,0.0,16.0,32.0,0.0002,7.774770355224609,7.260071563720703,11.0,q1_checkpoints/training_loss/qwen2.5-1.5b_seed42_lambda0p0.csv
+qlora,43,,0.0,0.03172389702358743,400.0,50.0,qwen2.5-1.5b,0.0,16.0,32.0,0.0002,7.444561767578125,7.4248191833496096,11.0,q1_checkpoints/training_loss/qwen2.5-1.5b_seed43_lambda0p0.csv
+qlora,44,,0.0,0.04421328397922615,400.0,50.0,qwen2.5-1.5b,0.0,16.0,32.0,0.0002,7.939854431152344,7.480903625488281,11.0,q1_checkpoints/training_loss/qwen2.5-1.5b_seed44_lambda0p0.csv
+qlora,45,,0.0,0.04184282104276635,400.0,50.0,qwen2.5-1.5b,0.0,16.0,32.0,0.0002,7.962120056152344,7.6043548583984375,11.0,q1_checkpoints/training_loss/qwen2.5-1.5b_seed45_lambda0p0.csv
+qlora,46,,0.0,0.03722915965365994,400.0,50.0,qwen2.5-1.5b,0.0,16.0,32.0,0.0002,7.7820289611816404,7.569033813476563,11.0,q1_checkpoints/training_loss/qwen2.5-1.5b_seed46_lambda0p0.csv
